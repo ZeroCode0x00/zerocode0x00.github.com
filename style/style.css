@@ -1,0 +1,140 @@
+
+    * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #f1f1f1;
+  font-size: 1.5vw;
+}
+
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+
+h1 {
+  color: #FFFFFF;
+  font-weight: normal;
+  font-size: 12vw;
+  text-shadow: 0.5vw 0.5vw 1px lightgray;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+h3 {
+  font-weight: normal;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+/* general styling */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  background-color: #f55d42;
+  color: #FFFFFF;
+  animation: 600s ease-in-out infinite color-change;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: #ffd54f;
+  }
+  33% {
+    background-color: #f55d42;
+  }
+  66% {
+    background-color: #42f57b;
+  }
+  0% {
+    background-color: #ffd54f;
+  }
+}
+
+.container {
+  font-family: "Helvetica Neue",
+    sans-serif;
+
+  color: #333;
+  margin: auto;
+  padding: inherit;
+  text-align: center;
+  padding: 20% 25%;
+}
+
+.containersmall {
+  font-family: "Helvetica Neue",
+    sans-serif;
+
+  color: #f1f1f1;
+  margin: auto;
+  padding: inherit;
+  text-align: center;
+  padding: 5ex;
+  text-shadow: 0.1vw 0.1vw 1px lightgray;
+}
+
+.bar {
+  font-family: "Roboto Thin";
+  background-color: #444444;
+  width: inherit;
+  padding: 5ex;
+  text-align: center;
+}
+
+.barl {
+  font-family: "Roboto Thin";
+  background-color: #444444;
+  width: inherit;
+  padding: 5ex;
+  text-align: left;
+}
+
+.barr {
+  font-family: "Roboto Thin";
+  background-color: #444444;
+  width: inherit;
+  padding: 5ex;
+  text-align: right;
+}
+
+  /* width */
+::-webkit-scrollbar {
+  width: .5vw;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
